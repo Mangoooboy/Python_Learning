@@ -1,0 +1,40 @@
+description: Ultralytics best model trained on Yolo Dataset\traffic sign.v1i.yolov8\data.yaml
+author: Ultralytics
+date: '2026-05-25T10:55:01.711076'
+version: 8.4.53
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Hazard
+  1: L
+  2: No Entry
+  3: R
+  4: Round-About
+  5: Speed Bump Ahead
+  6: Speed Limit -100-
+  7: Speed Limit -60-
+  8: Speed Limit -70-
+  9: Speed Limit -80-
+  10: Speed Limit 30
+  11: Stop
+  12: do_not_turn_l
+  13: do_not_turn_r
+  14: green_traffic_light
+  15: red_traffic_light
+  16: yellow_traffic_light
+  17: yield sign
+args:
+  data: null
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3
+end2end: false

@@ -1,0 +1,15 @@
+.venv/
+.idea/
+__pycache__/
+
+*.pt
+*.h
+*.nb
+*.zip
+*.onnx
+*.weights
+*.engine
+*.npy
+
+YOLO/
+datasets/
